@@ -25,8 +25,10 @@
 
 
 ## requirements
+
+
 | # | Title |  user story | importance | notes |
-| ------ | ------ |
+| ------ | ------ | ------ | ------ | ------ |
 | 1 | semantic segmentation_A |中文爱好者在尝试阅读中文文章时遇到了感到甚是费解的问题，他不明白“过几天天天天气不好”中的“天”是什么意思，为什么要有这么多个“天”凑在一起？对中文语法不是很熟的他需要一个 人/App 来告诉他这里的“天”都是什么意思,并且他对拼音及偏旁部首的造诣不高，很难独立完成查字典的工作，如果有一个能够语音输入的App告诉他句子的词性将会是很棒的体验。| 迫切需要一款能够语义分析的app来帮助他们更好的阅读理解 | App带扫描文字功能也是不错 |
 | 2 | semantic segmentation_B |user story | importance | notes |
 | 3 | Lamjs |user story | importance | notes |
