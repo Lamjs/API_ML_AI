@@ -35,7 +35,6 @@
 
 ## User interaction and design
 
-mermaid
 graph TD
    A --> B
 
