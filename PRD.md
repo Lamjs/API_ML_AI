@@ -4,7 +4,7 @@
 | Target release | 24/11/2018 | 
 | ------ | ------ |
 | Epic | 解决学习中文时看到“小偷偷偷偷东西”不懂里面词性的问题 |
-| Document status | 进行中 |
+| Document status | `进行中;` |
 | Document owner | Lamjs |
 | Designer | Lamjs |
 | Developer | Lamjs |
@@ -34,6 +34,7 @@
 
 
 ## User interaction and design
+
 ```flow
 st=>start: 开始
 op=>operation: My Operation
