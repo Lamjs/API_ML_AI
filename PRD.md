@@ -35,8 +35,19 @@
 
 ## User interaction and design
 
+```
 graph TD
-   A --> B
+A[用户]-->b[手写输入]
+A-->c[语音]
+A-->d[拼音输入]
+b-->e[语义分割]
+d-->e
+c-->e
+e-->f[词性分析]
+f-->g[输出句子]
+g-->q[确定]
+q-->A
+```
 
 
 ## Question
