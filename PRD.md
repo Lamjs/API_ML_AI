@@ -34,7 +34,7 @@
 
 
 ## User interaction and design
-!(https://github.com/Lamjs/API_ML_AI/blob/master/use_pro.png?raw=true)
+![process](https://github.com/Lamjs/API_ML_AI/blob/master/use_pro.png?raw=true)
 
 
 ## Question
