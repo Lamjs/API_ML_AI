@@ -42,14 +42,13 @@
 
 
 ## semantic segmentation_code
-(```)
+```
   from aip import AipNlp
-""" 你的 APPID AK SK """
-APP_ID = '14503828'
-API_KEY = 'q0QgoQ87dsWgletB7P0d9PVz'
-SECRET_KEY = 'xv3SuQg42ozzUNirMfHBQawmsmWWaGpb'
-client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
-(```)
+       APP_ID = '14503828'
+       API_KEY = 'q0QgoQ87dsWgletB7P0d9PVz'
+       SECRET_KEY = 'xv3SuQg42ozzUNirMfHBQawmsmWWaGpb'
+       client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
+```
 
 ## Not doing
 - 文字扫描
