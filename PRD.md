@@ -40,6 +40,19 @@
 ## Question
 - 以上文件完成后能解决关于中文学习者对复杂语句难以分析的问题，缓解中文学习者学习的阻力，帮助他们更好的对中文有更深入的理解。
 
+
+## semantic segmentation_code
+(```)
+  from aip import AipNlp
+
+""" 你的 APPID AK SK """
+APP_ID = '14503828'
+API_KEY = 'q0QgoQ87dsWgletB7P0d9PVz'
+SECRET_KEY = 'xv3SuQg42ozzUNirMfHBQawmsmWWaGpb'
+
+client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
+(```)
+
 ## Not doing
 - 文字扫描
 - 语音输入
