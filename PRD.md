@@ -43,11 +43,31 @@
 
 ## semantic segmentation_code
 ```
+  `pip install baidu-aip`
+   `python setup.py install`
   from aip import AipNlp
-       APP_ID = '14503828'
-       API_KEY = 'q0QgoQ87dsWgletB7P0d9PVz'
-       SECRET_KEY = 'xv3SuQg42ozzUNirMfHBQawmsmWWaGpb'
+       APP_ID = 'Your_ID'
+       API_KEY = 'Your API_KEY'
+       SECRET_KEY = 'Your SECRET_KEY'
        client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
+       text = "新媒体研究中心打造以人为本的交互设计及数据计量，求网络和真实世界的可持续发展。"
+
+       """ 调用词法分析 """
+       ss=client.lexerCustom(text);
+       print(ss)
+       text = "小偷偷偷偷东西"
+
+       """ 调用依存句法分析 """
+       a=client.depParser(text);
+
+       """ 如果有可选参数 """
+       options = {}
+       options["mode"] = 1
+
+       """ 带参数调用依存句法分析 """
+       client.depParser(text, options)
+       print(a)
+
 ```
 
 ## Not doing
