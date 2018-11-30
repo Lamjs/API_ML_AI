@@ -22,7 +22,7 @@
 
 ## Assumptions
 - 用户使用此主要功能时，主要是在遇到不懂的复杂语句且拥有手机或其它的电子产品（ipad，电脑等）的情境下。用户通过语音输入，拼音输入或手写输入等方式向软件传达他们的请求，即会收到他们遇到的语句的句式结构,和词性解释。
-
+- 连解析都看不懂的困境
 
 ## requirements
 
@@ -36,10 +36,12 @@
 ## User interaction and design
 ![cms](https://github.com/Lamjs/API_ML_AI/blob/master/image/brain.png?raw=true)
 
+## User_process
+![process](https://github.com/Lamjs/API_ML_AI/blob/master/image/Process.png?raw=true)
 
 ## Question
 - 以上文件完成后能解决关于中文学习者对复杂语句难以分析的问题，缓解中文学习者学习的阻力，帮助他们更好的对中文有更深入的理解。
-
+- 帮助非本土中文爱好者连解析都看不懂的问题，毕竟他们可以查看英文解析
 
 ## semantic segmentation_code
 ```
@@ -154,3 +156,4 @@ def request6(appkey, m="GET"):
 ## Not doing
 - 文字扫描
 - 语音输入
+- 语音播报
