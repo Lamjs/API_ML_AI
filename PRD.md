@@ -1,7 +1,7 @@
 ## product requirement
 
 
-| Target release | 24/11/2018 | 
+| Target release | 30/11/2018 | 
 | ------ | ------ |
 | Epic |中文解析程序 |
 | Document status | `进行中;` |
@@ -152,6 +152,8 @@ def request6(appkey, m="GET"):
         if __name__ == '__main__':
               main()
 ```
+## 串联时间画面
+！[](https://github.com/Lamjs/API_ML_AI/blob/master/image/%E6%97%B6%E9%97%B4%E7%94%BB%E9%9D%A2.png?raw=true)
 
 ## Not doing
 - 文字扫描
