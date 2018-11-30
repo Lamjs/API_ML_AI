@@ -43,8 +43,8 @@
 
 ## semantic segmentation_code
 ```
-  `pip install baidu-aip`
-   `python setup.py install`
+  pip install baidu-aip
+  python setup.py install
   from aip import AipNlp
        APP_ID = 'Your_ID'
        API_KEY = 'Your API_KEY'
