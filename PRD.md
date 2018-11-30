@@ -35,10 +35,11 @@
 
 ## User interaction and design
 ![cms](https://github.com/Lamjs/API_ML_AI/blob/master/image/brain.png?raw=true)
+(https://github.com/Lamjs/API_ML_AI/blob/master/image/brain.png?raw=true)
 
 ## User_process
 ![process](https://github.com/Lamjs/API_ML_AI/blob/master/image/Process.png?raw=true)
-
+(https://github.com/Lamjs/API_ML_AI/blob/master/image/Process.png?raw=true)
 ## Question
 - 以上文件完成后能解决关于中文学习者对复杂语句难以分析的问题，缓解中文学习者学习的阻力，帮助他们更好的对中文有更深入的理解。
 - 帮助非本土中文爱好者连解析都看不懂的问题，毕竟他们可以查看英文解析
@@ -154,7 +155,7 @@ def request6(appkey, m="GET"):
 ```
 ## 串联时间画面
 ![image](https://github.com/Lamjs/API_ML_AI/blob/master/image/%E6%97%B6%E9%97%B4%E7%94%BB%E9%9D%A2.png?raw=true)
-
+(https://github.com/Lamjs/API_ML_AI/blob/master/image/%E6%97%B6%E9%97%B4%E7%94%BB%E9%9D%A2.png?raw=true)
 ## Not doing
 - 文字扫描
 - 语音输入
