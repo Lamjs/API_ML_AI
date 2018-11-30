@@ -117,6 +117,40 @@ client.basicGeneralUrl(url, options)
 ```
 （http://ai.baidu.com/docs#/OCR-Python-SDK/07883957）
 
+## 新华字典api
+```
+import json, urllib
+from urllib import urlencode
+def request6(appkey, m="GET"):
+    url = "http://v.juhe.cn/xhzd/queryid"
+    params = {
+        "word" : "", #填写需要查询的汉字id
+        "key" : appkey, #应用APPKEY(应用详细页查询)
+        "dtype" : "", #返回数据的格式,xml或json，默认json
+ 
+    }
+    params = urlencode(params)
+    if m =="GET":
+        f = urllib.urlopen("%s?%s" % (url, params))
+    else:
+        f = urllib.urlopen(url, params)
+ 
+    content = f.read()
+    res = json.loads(content)
+    if res:
+        error_code = res["error_code"]
+        if error_code == 0:
+            #成功请求
+            print res["result"]
+        else:
+            print "%s:%s" % (res["error_code"],res["reason"])
+    else:
+        print "request api error"
+        
+        if __name__ == '__main__':
+              main()
+```
+
 ## Not doing
 - 文字扫描
 - 语音输入
