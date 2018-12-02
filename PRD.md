@@ -53,7 +53,7 @@
        API_KEY = 'Your API_KEY'
        SECRET_KEY = 'Your SECRET_KEY'
        client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
-       text = "新媒体研究中心打造以人为本的交互设计及数据计量，求网络和真实世界的可持续发展。"
+       text = "小偷偷偷偷东西"
 
        """ 调用词法分析 """
        ss=client.lexerCustom(text);
@@ -72,6 +72,8 @@
        print(a)
 
 ```
+![seg](https://github.com/Lamjs/API_ML_AI/blob/master/image/segmatic.png?raw=true)
+(https://github.com/Lamjs/API_ML_AI/blob/master/image/segmatic.png?raw=true)
 ## character recognition
 `pip install baidu-aip`
 ```
