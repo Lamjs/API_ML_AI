@@ -130,4 +130,3 @@ def request6(appkey, m="GET"):
 ## Not doing
 - 文字扫描
 - 语音输入
-- 语音播报
