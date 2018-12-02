@@ -86,6 +86,7 @@ img=i.read()
 message=client.basicGeneral(img)
 print(message)
 ```
+![example]（https://github.com/Lamjs/API_ML_AI/blob/master/image/word.png?raw=true）
 （https://github.com/Lamjs/API_ML_AI/blob/master/image/word.png?raw=true）
 
 ## 新华字典api
