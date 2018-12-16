@@ -35,8 +35,8 @@
 
 
 ## User interaction and design
-![cms](https://github.com/Lamjs/API_ML_AI/blob/master/image/brain.png?raw=true)
-(https://github.com/Lamjs/API_ML_AI/blob/master/image/brain.png?raw=true)
+![cms](https://github.com/Lamjs/API_ML_AI/blob/master/image/Pro_info.png?raw=true)
+(https://github.com/Lamjs/API_ML_AI/blob/master/image/Pro_info.png?raw=true)
 
 ## User_process
 ![process](https://github.com/Lamjs/API_ML_AI/blob/master/image/Process.png?raw=true)
