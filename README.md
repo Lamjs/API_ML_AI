@@ -126,7 +126,7 @@ def request6(appkey, m="GET"):
               main()
 ```
 ## 串联时间画面
-![image](https://github.com/Lamjs/API_ML_AI/blob/master/image/%E6%97%B6%E9%97%B4%E7%94%BB%E9%9D%A2.png?raw=true)
+![image](https://github.com/Lamjs/API_ML_AI/blob/master/image/process_one.png?raw=true)
 (https://github.com/Lamjs/API_ML_AI/blob/master/image/%E6%97%B6%E9%97%B4%E7%94%BB%E9%9D%A2.png?raw=true)
 ##风险及报告
 - 对用户输入不具有连贯性的句子极有可能显示错误的词性分析，但目前有能力支持只输入成语或词语来进行分析。
