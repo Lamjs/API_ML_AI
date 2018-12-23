@@ -163,7 +163,10 @@ def request6(appkey, m="GET"):
 (https://github.com/Lamjs/API_ML_AI/blob/master/image/process_two.png?raw=true)
 (https://github.com/Lamjs/API_ML_AI/blob/master/image/process_three.png?raw=true)
 ## 风险及报告
-- 对用户输入不具有连贯性的句子极有可能显示错误的词性分析，但目前有能力支持只输入成语或词语来进行分析。
+`我一把把把把住了`
+！[image](https://github.com/Lamjs/API_ML_AI/blob/master/image/词法分析.png?raw=true)
+- 对于文中出现的把分析为“数词”，即有可能对句子结构复杂，类似于句中出现多个重复字体，或是有方言成分的句子难以辩解。
+- 新闻字典API对申请者并不友好，需要实名并要给予两个月认证时间，在API竞争市场中不会太好。
 
 ## Not doing
 - 后续解析会推出翻译语言不只又英语的各种语言。
