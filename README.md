@@ -37,9 +37,7 @@
 | 2 | semantic segmentation_B |老外对中文成语并不熟练，他想知道一个成语在句中是作为名词还是形容词，但是连字典都不会翻的他需要有人/App来告诉他成语的意思，他并不介意是语音输入或是手写输入，如果能给予词性及句子的解析那是正好不过的了。| important | 对成语的语义分割及每个字都具有解释 |
 
 
-## User interaction and design
-![cms](https://github.com/Lamjs/API_ML_AI/blob/master/image/Pro_info.png?raw=true)
-(https://github.com/Lamjs/API_ML_AI/blob/master/image/Pro_info.png?raw=true)
+
 
 ## User_process
 ![process](https://github.com/Lamjs/API_ML_AI/blob/master/image/Process.png?raw=true)
@@ -64,8 +62,10 @@
  |2.| 词法分析 |对句子中有多次重复的字而导致的无法理解进行梳理| 百度词法分析|
  |3.| 查询字义 |想了解文字意思 | 新闻字典API |
  |4.|翻译 | 针对不懂中文想学习中文的外国中文爱好者，帮助用英文解析了解中文意思 |有道翻译API |
-
-## semantic segmentation_code
+## 产品信息设计
+![cms](https://github.com/Lamjs/API_ML_AI/blob/master/image/Pro_info.png?raw=true)
+(https://github.com/Lamjs/API_ML_AI/blob/master/image/Pro_info.png?raw=true)
+## API使用水平
 ```
   pip install baidu-aip
   python setup.py install
@@ -145,7 +145,17 @@ def request6(appkey, m="GET"):
         if __name__ == '__main__':
               main()
 ```
-## 串联时间画面
+## API使用比较分析
+ |API类型| 分析 |
+ |------ | ------ |
+ |搜狗OCR API|识别速度快，准确率高，对文字大小要求严格 |
+ |文通OCR API| 识别速度快，识别正确率高，并支持生成word文档 |
+ |阿里云OCR API| 高准确率，高实时性，支持多种图片类型，但价格昂贵 |
+ |汉王OCR API| 高准确率，支持多种图片类型，识别速度慢 |
+ |百度OCR API| 准确率高，实时性良好，价格免费，对图片要求一般 |
+ - 综合比较，百度OCR文字识别在价格、识别速度、图片类型、场景需求等表现良好，是目前找过API最为适用的。参考来自[此链接](https://www.jb51.net/office/601010.html)
+ 
+## 交互及界面设计
 ![image](https://github.com/Lamjs/API_ML_AI/blob/master/image/process_one.png?raw=true)
 ![image](https://github.com/Lamjs/API_ML_AI/blob/master/image/process_two.png?raw=true)
 ![image](https://github.com/Lamjs/API_ML_AI/blob/master/image/process_three.png?raw=true)
