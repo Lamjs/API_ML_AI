@@ -164,7 +164,7 @@ def request6(appkey, m="GET"):
 (https://github.com/Lamjs/API_ML_AI/blob/master/image/process_three.png?raw=true)
 ## 风险及报告
 `我一把把把把住了`
-！[image](https://github.com/Lamjs/API_ML_AI/blob/master/image/词法分析.png?raw=true)
+！[image](https://github.com/Lamjs/API_ML_AI/blob/master/image/seg.png?raw=true)
 - 对于文中出现的把分析为“数词”，即有可能对句子结构复杂，类似于句中出现多个重复字体，或是有方言成分的句子难以辩解。
 - 新闻字典API对申请者并不友好，需要实名并要给予两个月认证时间，在API竞争市场中不会太好。
 
