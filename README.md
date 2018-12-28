@@ -5,11 +5,11 @@
 | Target release | 30/11/2018 | 
 | ------ | ------ |
 | Epic |中文解析程序 |
-| Document status | `进行中;` |
+| Document status | `进行中` |
 | Document owner | Lamjs |
 | Designer | Lamjs |
 | Developer | Lamjs |
-| QA | Lamjs |
+
 
 
 ## 产品目标
@@ -169,4 +169,5 @@ def request6(appkey, m="GET"):
 - 新闻字典API对申请者并不友好，需要实名并要给予两个月认证时间，在API竞争市场中不会太好。
 
 ## Not doing
-- 后续解析会推出翻译语言不只又英语的各种语言。
+- 后续解析会推出翻译语言不只有英语的各种语言。
+- 解析的语音播报功能
