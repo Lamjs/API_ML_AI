@@ -2,13 +2,13 @@
 ## product requirement
 
 
-| Target release | 30/11/2018 | 
+| Target release | 01/01/2019 | 
 | ------ | ------ |
 | Epic |中文解析程序 |
-| Document status | `进行中` |
-| Document owner | Lamjs |
-| Designer | Lamjs |
-| Developer | Lamjs |
+| Document status | `已完成` |
+| Document owner | 林佳墅 |
+| Designer | 林佳墅 |
+| Developer | 林佳墅 |
 
 
 
@@ -122,8 +122,7 @@ def request6(appkey, m="GET"):
         "word" : "", #填写需要查询的汉字id
         "key" : appkey, #应用APPKEY(应用详细页查询)
         "dtype" : "", #返回数据的格式,xml或json，默认json
- 
-    }
+             }
     params = urlencode(params)
     if m =="GET":
         f = urllib.urlopen("%s?%s" % (url, params))
@@ -145,6 +144,43 @@ def request6(appkey, m="GET"):
         if __name__ == '__main__':
               main()
 ```
+
+## 百度通用翻译挨api
+```
+import httplib
+import md5
+import urllib
+import random
+
+appid = '' #你的appid
+secretKey = '' #你的密钥
+
+httpClient = None
+myurl = '/api/trans/vip/translate'
+q = 'apple'
+fromLang = 'en'
+toLang = 'zh'
+salt = random.randint(32768, 65536)
+
+sign = appid+q+str(salt)+secretKey
+m1 = md5.new()
+m1.update(sign)
+sign = m1.hexdigest()
+myurl = myurl+'?appid='+appid+'&q='+urllib.quote(q)+'&from='+fromLang+'&to='+toLang+'&salt='+str(salt)+'&sign='+sign
+ 
+try:
+    httpClient = httplib.HTTPConnection('api.fanyi.baidu.com')
+    httpClient.request('GET', myurl)
+ 
+    #response是HTTPResponse对象
+    response = httpClient.getresponse()
+    print response.read()
+except Exception, e:
+    print e
+finally:
+    if httpClient:
+        httpClient.close()
+ ```
 ## API使用比较分析
  |API类型| 分析 |
  |------ | ------ |
@@ -167,7 +203,9 @@ def request6(appkey, m="GET"):
 ![cms](https://github.com/Lamjs/API_ML_AI/blob/master/image/seg.png?raw=true)
 - 对于文中出现的把分析为“数词”，即有可能对句子结构复杂，类似于句中出现多个重复字体，或是有方言成分的句子难以辩解。
 - 新闻字典API对申请者并不友好，需要实名并要给予两个月认证时间，在API竞争市场中不会太好。
+- 百度通用翻译APi对申请者审核严格，需要提供使用网站的服务器IP或程序的相关信息，且当字数翻译到百万级的时候便要索取费用。
 
 ## Not doing
 - 后续解析会推出翻译语言不只有英语的各种语言。
 - 解析的语音播报功能
+- 拍照翻译功能
